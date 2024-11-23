@@ -1,11 +1,56 @@
-p {
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
+/* Estilo del encabezado */
+header {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #005f73;
+}
+
+/* Estilo de los párrafos */
+p {
     color: rgb(171, 57, 224);
-  
     width: 450px;
-  
     border: 1px solid rgb(247, 21, 21);
-    
-      
-      }
-  
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Estilo de las imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

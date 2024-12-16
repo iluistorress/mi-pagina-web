@@ -89,17 +89,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* Sección Flexbox */
+
 .flexbox-ejemplo {
     margin: 20px auto;
     text-align: center;
 }
 
 .flex-container {
-    display: flex; /* Activa Flexbox */
-    justify-content: center; /* Centra horizontalmente los elementos */
-    align-items: center; /* Alinea verticalmente */
-    gap: 20px; /* Espacio entre elementos */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
     background-color: #f0f8ff;
     border: 2px solid #008CBA;
     padding: 20px;
@@ -113,12 +113,48 @@ footer {
     font-size: 18px;
     text-align: center;
     border-radius: 5px;
-    flex: 1; /* Ajusta el tamaño de cada elemento */
-    max-width: 150px; /* Máximo ancho */
+    flex: 1; 
+    max-width: 150px; 
 }
 
 .flex-item:hover {
     background-color: #005f73;
-    transform: scale(1.1); /* Efecto hover */
+    transform: scale(1.1); 
+    transition: all 0.3s ease-in-out;
+}
+
+.flexbox-alineacion {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.flex-container-alineacion {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 200px; 
+    background-color: #f0f8ff;
+    border: 2px solid #008CBA;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px; 
+}
+
+.flex-item:nth-child(odd) {
+    background-color: #ff6347; 
+}
+
+.flex-item:hover {
+    background-color: #005f73;
+    transform: scale(1.1); 
     transition: all 0.3s ease-in-out;
 }

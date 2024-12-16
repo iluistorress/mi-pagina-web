@@ -1,4 +1,4 @@
-/* Estilo general del cuerpo */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -7,7 +7,21 @@ body {
     color: #333;
 }
 
-/* Estilo del encabezado */
+/* Encabezados */
+h1, h2, h3 {
+    color: #2d2d5b; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em; 
+}
+
+h3 {
+    font-size: 1.2em; 
+}
+
+
 header {
     background-color: #4CAF50;
     padding: 10px;
@@ -28,23 +42,44 @@ nav button:hover {
     background-color: #005f73;
 }
 
-/* Estilo de los párrafos */
+
 p {
-    color: rgb(171, 57, 224);
+    color: #333; 
+    line-height: 1.6;
     width: 450px;
     border: 1px solid rgb(247, 21, 21);
     padding: 10px;
     margin: 15px 0;
 }
 
-/* Estilo de las imágenes */
+
+p.nota {
+    color: #ff0000; 
+    font-style: italic;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+article {
+    background-color: #e6f7ff;
+    border: 1px solid #005f73;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
 img {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
 }
 
-/* Estilo del pie de página */
+
 footer {
     background-color: #333;
     color: white;
